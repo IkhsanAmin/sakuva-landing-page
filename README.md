@@ -1,31 +1,53 @@
 # Sakuva Landing Page
 
-Landing page Sakuva berbasis React, TypeScript, Vite, dan Tailwind CSS.
+Official landing page for **Sakuva**, designed to introduce the application, showcase its features, and provide users with a convenient way to download it.
 
-## Menjalankan project
+## Overview
 
-Pastikan Node.js dan npm sudah terpasang.
+Sakuva Landing Page serves as the official website for the Sakuva application. It provides information about the app, highlights its key features, and directs users to download the application.
+
+## Features
+
+- Application introduction and overview
+- Feature showcase
+- Application download section
+- Responsive design for desktop and mobile
+- Modern and user-friendly interface
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## Getting Started
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/IkhsanAmin/sakuva-landing-page.git
+```
+
+Install dependencies:
+
+```bash
+cd sakuva-landing-page
 npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
 ```
 
-Vite akan menampilkan alamat lokal, biasanya `http://localhost:5173`.
-
-## Build production
+Build for production:
 
 ```bash
 npm run build
-npm run preview
 ```
 
-## Aset
+## Purpose
 
-Letakkan aset gambar asli di `public/assets/`. Nama file harus mengikuti daftar di `public/assets/ASSET_GUIDE.md`.
-
-## Catatan
-
-- Struktur project menggunakan Vite + React + TypeScript.
-- Komponen dan helper dari kode sumber awal dipertahankan di `src/App.tsx` untuk menjaga perilaku serta desain tetap utuh.
-- Animasi GSAP dan font Plus Jakarta Sans dimuat dari CDN/Google Fonts saat halaman dibuka, sehingga fitur tersebut memerlukan koneksi internet.
+This website acts as the official online presence of the Sakuva application, making it easier for users to learn about and download the app.
